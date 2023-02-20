@@ -490,8 +490,8 @@ figcaption {
 }
 
 .main-banner-image.dine {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6044620a4631b0232ff542f4_drew-beamer-bTN-zKFy9uA-unsplash.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6044620a4631b0232ff542f4_drew-beamer-bTN-zKFy9uA-unsplash.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0443.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0443.JPG");
   background-size: auto, cover;
 }
 
@@ -1101,7 +1101,7 @@ figcaption {
 
 .overlapping-column-image {
   height: 560px;
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6031d4094c32c24213c57e96_web-casey-lee-awj7sRviVXo-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/IMG_0083.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1111,7 +1111,7 @@ figcaption {
   z-index: 2;
   width: 274px;
   height: 317px;
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605f6cfbac9d039d7f199d66_emily-andreeva-BuuQJ3QxZ_A-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/IMG_0116.jpg");
 }
 
 .overlapping-column-image.weddings {
