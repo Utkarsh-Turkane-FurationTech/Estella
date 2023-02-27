@@ -1,10 +1,197 @@
 .reservation-banner-image {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0376.JPG");
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0376.JPG");
-    background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
-  }
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0376.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0376.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.background-color-primary{
+  background-color: #192b4d;
+}
+
+.color-white{
+  color: white !important;
+}
+
+.about-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/table-9.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/table-9.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.restaurant img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: 0.2s;
+}
+
+.restaurant{
+  margin: 0px auto !important;
+  width: 80%;
+  padding: 200px 0px;
+}
+
+.restaurant .slick-dots {
+  bottom: 110px !important;
+}
+
+.restaurant .slick-prev, .slick-next {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.restaurant .slick-next {
+  right: -80px !important;
+}
+
+.restaurant .slick-prev {
+  left: -80px !important;
+}
+
+.restaurant .slick-prev:before, .slick-next:before {
+  font-size: 45px !important;
+  color:black !important;
+}
+
+.restaurant .slick-prev:before{
+  content:url('/assets/images/icons/left.png') !important;
+}
+
+.restaurant .slick-next:before{
+  content:url('/assets/images/icons/right.png') !important;
+}
+
+.restaurant .slick-dots li button:before{
+  font-size: 10px !important;
+}
+
+.restaurant .slick-slide{
+  overflow: hidden;
+}
+
+.restaurant img:hover{
+  transform: scale(1.1);
+}
+
+.restaurant .image-container{
+  overflow: hidden;
+  
+}
+
+.restaurant .slick-slide {
+  margin: 0 10px;
+}
+
+.restaurant-container{
+  background-color: #C19858;
+}
+ 
+.career img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+
+.career{
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  aspect-ratio: 2/1;
+}
+
+.career-container{
+ background-color: #272626;
+ color: white;
+ padding: 200px 0px;
+}
+
+.career img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.career .slick-prev:before{
+  content:url('/assets/images/icons/left-white.png') !important;
+}
+
+.career .slick-next:before{
+  content:url('/assets/images/icons/right-white.png') !important;
+}
+
+.career .slick-next {
+  right: -80px !important;
+}
+
+.career .slick-prev {
+  left: -80px !important;
+}
+
+.career .slick-list,.slick-track{
+  height: 100%;
+  width: 100%;
+}
+
+.career .slick-prev, .slick-next {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.career .slick-prev {
+  left: 30px !important;
+  z-index: 1;
+}
+
+.career .slick-next {
+  right: 30px !important;
+}
+
+.career-container .content  button:hover{
+ background-color: white !important;
+ color: black !important;
+}
+
+.slick-dots {
+  bottom: -42px !important;
+}
+
+.whisky-jazz .whisky-jazz-images img{
+  width: 90%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4%;
+}
+
+.whisky-jazz{
+  background: #e0c0b6;
+  padding: 200px 0px;
+}
+
+.whisky-jazz .whisky-jazz-content p{
+  width: 80%;
+}
+
+.whisky-jazz .whisky-jazz-content h2{
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  line-height: 1.1em;
+}
+
