@@ -9,6 +9,17 @@
   background-size: auto, cover;
 }
 
+.news-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0418.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0418.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
 .background-color-primary{
   background-color: #192b4d;
 }
@@ -65,11 +76,11 @@
 }
 
 .restaurant .slick-prev:before{
-  content:url('/assets/images/icons/left.png') !important;
+  content:url('/assets/images/icons/left-dark-blue.png') !important;
 }
 
 .restaurant .slick-next:before{
-  content:url('/assets/images/icons/right.png') !important;
+  content:url('/assets/images/icons/right-dark-blue.png') !important;
 }
 
 .restaurant .slick-dots li button:before{
@@ -94,7 +105,7 @@
 }
 
 .restaurant-container{
-  background-color: #C19858;
+  background-color: #fff;
 }
  
 .career img{
@@ -113,8 +124,8 @@
 }
 
 .career-container{
- background-color: #272626;
- color: white;
+ background-color: #fff;
+ color: #192b4d;
  padding: 200px 0px;
 }
 
@@ -162,8 +173,8 @@
 }
 
 .career-container .content  button:hover{
- background-color: white !important;
- color: black !important;
+ background-color: #192b4d !important;
+ color: #fff !important;
 }
 
 .slick-dots {
@@ -182,7 +193,7 @@
 }
 
 .whisky-jazz{
-  background: #e0c0b6;
+  background: #e5f3ff;
   padding: 200px 0px;
 }
 
@@ -195,3 +206,114 @@
   line-height: 1.1em;
 }
 
+.cusine-introduction .img-gallery-container a{
+  height: 300px;
+  width: 300px;
+}
+
+.cusine-introduction .img-gallery-container a img{
+ object-position: 50% 50%;
+ aspect-ratio: 1/2;
+}
+
+.cusine-introduction .img-gallery-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cusine-introduction{
+  padding: 200px 0px;
+}
+
+.news-articles img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.news-articles .card{
+  height: 100%;
+}
+
+.full-image-section .container .button{
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.index-page .button{
+  min-width: 250px;
+}
+
+/* .index-page .container{
+  margin-top: 8.5rem;
+} */
+
+.index-page .decorative-line {
+  height: 40px;
+}
+
+.w-webflow-badge{
+  display: none !important;
+}
+
+.footer .container{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footer .container .footer-columns{
+  text-align: center;
+}
+
+.navigation .container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+.media-banner .container{
+  position: absolute;
+  top: 40%;
+}
+
+.media-banner .decorative-line-div .decorative-line{
+  height: 40px;
+}
+
+.about-content .container{
+  position: absolute;
+  top: 40%;
+}
+
+.index-page .container{
+  max-width: 100% !important;
+  padding: 0px !important;
+  margin-left: 0px !important;
+  position: absolute !important;
+  margin-right: 0px !important;
+  top: 40% !important;
+}
+
+.index-page .container p{
+  max-width: 70%;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  line-height: 1.5em;
+}
+.index-page .container h1{
+  font-size: clamp(1.6rem, 4vw, 5rem);
+  line-height: 1.1em;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #192b4d !important;
+}
+
+.slick-dots li button:before {
+  color: #192b4d !important;
+}

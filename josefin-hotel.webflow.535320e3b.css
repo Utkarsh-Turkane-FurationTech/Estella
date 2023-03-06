@@ -479,9 +479,10 @@ figcaption {
 }
 
 .main-banner-image.experiences {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6067a5bf0b7cda4b6069511c_web-jorge-zapata-4nXkhLCrkLo-unsplash.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6067a5bf0b7cda4b6069511c_web-jorge-zapata-4nXkhLCrkLo-unsplash.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0083.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0083.jpg");
   background-size: auto, cover;
+  background-position: top center;
 }
 
 .main-banner-image.weddings {
@@ -569,6 +570,7 @@ figcaption {
   color: #fff;
   font-weight: 300;
   text-decoration: none;
+  font-weight: initial;
 }
 
 .nav-link.w--current {
@@ -1035,17 +1037,22 @@ figcaption {
 }
 
 .slide {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6067a64209bea4c6140b512b_web-nathan-dumlao-ZsPlbTxFosA-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/group-photo.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide._2 {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdedce1af7a3dfd57eb88_jessica-f-BmbAdFhTZA4-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/table-8.JPG");
 }
 
 .slide._3 {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdf1abf95649eb64b3657_brittani-burns-M7IcBS_k2fo-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/IMG_0098.jpg");
+  background-size: cover;
+}
+
+.slide._4 {
+  background-image: url("/assets/images/restaurant/table-3.JPG");
   background-size: cover;
 }
 
@@ -1198,9 +1205,21 @@ figcaption {
   margin-bottom: 40px;
 }
 
+/* Custom Css To Template Starts */
+
 body,html{
   overflow-x: hidden;
 }
+
+.w-webflow-badge{
+  display: none !important;
+}
+
+.decorative-line.blue {
+  background-color: #ccaf7b !important;
+}
+
+/* Custom Css To Template Ends */
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -1326,8 +1345,9 @@ body,html{
 
   .column-image {
     top: 50px;
-    width: 192px;
-    height: 256px;
+    /* width: 192px;
+    height: 256px; */
+    width: 100%;
   }
 
   ._2-columns {
@@ -1668,13 +1688,15 @@ body,html{
 
   .intro-image-left {
     top: 20px;
-    width: 122px;
+    /* width: 122px; */
+    width: 100%;
     height: 163px;
   }
 
   .intro-image-right {
     bottom: 20px;
-    width: 122px;
+    /* width: 122px; */
+    width: 100%;
     height: 184px;
   }
 
@@ -1713,3 +1735,4 @@ body,html{
     padding-left: 20px;
   }
 }
+  
