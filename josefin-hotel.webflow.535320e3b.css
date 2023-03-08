@@ -347,15 +347,15 @@ figcaption {
 }
 
 ._3-column-image.experiences-2 {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fe616102fdbd2251e4d7e_derick-mckinney-qSgGfVkpwCQ-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/drinks.jpg");
 }
 
 ._3-column-image.experiences-3 {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fe609007f8603d9766d11_cade-prior-qzv0os5eIJQ-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/beachfront-view.jpg");
 }
 
 ._3-column-image.experiences-1 {
-  background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605eb8f7b7296d9998122a9f_redcharlie-t-7KEq9M0b0-unsplash.jpg");
+  background-image: url("/assets/images/restaurant/dish.jpg");
 }
 
 ._3-column {
@@ -479,10 +479,10 @@ figcaption {
 }
 
 .main-banner-image.experiences {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0083.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0083.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/dish-3.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/dish-3.jpg");
   background-size: auto, cover;
-  background-position: top center;
+  background-position: center center;
 }
 
 .main-banner-image.weddings {
@@ -1648,13 +1648,13 @@ body,html{
     margin-bottom: 20px;
   }
 
-  ._3-column-image.experiences-2 {
+  /* ._3-column-image.experiences-2 {
     background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fe616102fdbd2251e4d7e_derick-mckinney-qSgGfVkpwCQ-unsplash.jpg");
-  }
+  } */
 
-  ._3-column-image.experiences-3 {
+  /* ._3-column-image.experiences-3 {
     background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fe609007f8603d9766d11_cade-prior-qzv0os5eIJQ-unsplash.jpg");
-  }
+  } */
 
   .container {
     padding-right: 20px;

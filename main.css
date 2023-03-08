@@ -75,12 +75,12 @@
   color:black !important;
 }
 
-.restaurant .slick-prev:before{
-  content:url('/assets/images/icons/left-dark-blue.png') !important;
+.restaurant .slick-prev:before {
+  content: url('/assets/images/icons/Left-Arrow.svg') !important;
 }
 
 .restaurant .slick-next:before{
-  content:url('/assets/images/icons/right-dark-blue.png') !important;
+  content:url('/assets/images/icons/Right-Arrow.svg') !important;
 }
 
 .restaurant .slick-dots li button:before{
@@ -182,14 +182,14 @@
 }
 
 .whisky-jazz .whisky-jazz-images img{
-  width: 90%;
+  width: 80%;
   height: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
-  object-position: center center;
+  object-position: 100% 100%;
   margin: 0 auto;
   display: block;
-  border-radius: 4%;
+  /* border-radius: 4%; */
 }
 
 .whisky-jazz{
@@ -226,6 +226,11 @@
 
 .cusine-introduction{
   padding: 200px 0px;
+}
+
+.cusine-introduction .col-12 p{
+  margin: 20px auto;
+  width: 90%;
 }
 
 .news-articles img{
