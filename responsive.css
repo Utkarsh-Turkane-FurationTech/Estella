@@ -58,8 +58,20 @@
         display: none;
     }
 
+    /* .starters-containers div:last-child{
+        grid-area: auto;
+    }
 
+    .starters-containers div:last-child a{
+        min-width: 250px;
+    }
+    
 
+    .details{
+        margin-bottom: 50px;
+    } */
+
+      
 }    
 
 
