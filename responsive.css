@@ -16,6 +16,22 @@
     .full-image-section .decorative-line-div{
         display: none;
     }
+
+    .founder-container .overlapping-back-image-div.overlapping-bottom-image-left{
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width:992px){
+    
+    .book-a-catering{
+        min-width: 100%;
+    }
+
+
+    
+    
+
 }
 
 @media (max-width: 768px){
@@ -35,7 +51,18 @@
         display: none;
     }
 
+    .birthday-container .overlapping-images-column{
+        margin-top: 50px;
+    }
 
+    .founder-container .overlapping-images-column{
+        position: unset !important;
+        top: unset !important;
+    }
+
+    /* .full-image-section .container .button {
+        min-width: 80%;
+    } */
 }
 
 @media (max-width:568px){
@@ -71,6 +98,10 @@
         margin-bottom: 50px;
     } */
 
+    .blue-section .intro-image-right,.intro-image-left{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
       
 }    
 

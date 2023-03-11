@@ -339,7 +339,7 @@ figcaption {
 }
 
 ._3-column-image.review-2 {
-  background-image: url("/assets/images/news/Estella-thumbnail-3.webp");
+  background-image: url("/assets/images/news/news-2.webp");
 }
 
 ._3-column-image.review-3 {
@@ -473,8 +473,8 @@ figcaption {
 }
 
 .main-banner-image.stay {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6031d853741c610dbf7589cb_web-devon-janse-van-rensburg-DU8Z5djVJtg-unsplash.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6031d853741c610dbf7589cb_web-devon-janse-van-rensburg-DU8Z5djVJtg-unsplash.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner-3-2.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner-3-2.jpg");
   background-size: auto, cover;
 }
 
@@ -486,8 +486,13 @@ figcaption {
 }
 
 .main-banner-image.weddings {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdd00b726273620674bec_vitor-pinto-FdI2hQxK_L0-unsplash%402x.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdd00b726273620674bec_vitor-pinto-FdI2hQxK_L0-unsplash%402x.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner-2-1.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner-2-1.jpg");
+}
+
+.main-banner-image.about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner.jpg");
 }
 
 .main-banner-image.dine {
@@ -705,7 +710,7 @@ figcaption {
 .intro-image-left {
   width: 284px;
   height: 303px;
-  background-image: url("/assets/images/restaurant/IMG_0429.JPG");
+  background-image: url("/assets/images/restaurant/drinks-2.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -715,8 +720,8 @@ figcaption {
   height: 298px;
   margin-right: 0px;
   margin-left: auto;
-  background-image: url("/assets/images/restaurant/table-6.JPG");
-  background-position: 50% 50%;
+  background-image: url("/assets/images/restaurant/dine.jpg");
+  background-position: 50% 100%;
   background-size: cover;
 }
 
@@ -1113,6 +1118,11 @@ figcaption {
   background-size: cover;
 }
 
+.founder-container .overlapping-column-image {
+  background-position: 50% 32%;
+
+}
+
 .overlapping-column-image.overlapping-front {
   position: absolute;
   z-index: 2;
@@ -1125,6 +1135,15 @@ figcaption {
   background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605fdaa0abaa954cd419f965_thomas-ae-M-pNtlOX2f0-unsplash.jpg");
 }
 
+
+.birthday-container .overlapping-images-column .overlapping-column-image.weddings{
+  background-image: url("/assets/images/restaurant/dish-5.jpg");
+}
+
+.founder-container .overlapping-images-column .overlapping-column-image.weddings{
+  background-image: url("/assets/images/restaurant/founder.jpeg");
+}
+
 .overlapping-column-image.overlapping-front-weddings {
   position: absolute;
   z-index: 2;
@@ -1132,6 +1151,15 @@ figcaption {
   height: 317px;
   background-image: url("https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/6065569a262af85f8b5139ae_alvin-mahmudov-NSVJAAXOYHs-unsplash.jpg");
 }
+
+.birthday-container .overlapping-images-column .overlapping-column-image.overlapping-front-weddings {
+  position: absolute;
+  z-index: 2;
+  width: 274px;
+  height: 317px;
+  background-image: url("/assets/images/restaurant/dish-6.jpg");
+}
+
 
 .news-image {
   width: 100%;
@@ -1166,8 +1194,8 @@ figcaption {
 }
 
 .blog-collection-list-wrapper {
-  margin-right: 140px;
-  margin-left: 140px;
+  /* margin-right: 140px;
+  margin-left: 140px; */
 }
 
 ._3-columns {
@@ -1388,8 +1416,16 @@ body,html{
 
   .overlapping-column-image {
     top: 50px;
-    width: 192px;
-    height: 300px;
+    /* width: 192px;
+    height: 300px; */
+    width: 295px;
+    height: 388px;
+  }
+
+  .founder-container .overlapping-column-image {
+    top: 50px;
+    width: 100%;
+    height: 560px;
   }
 
   .overlapping-column-image.overlapping-front {
@@ -1398,8 +1434,17 @@ body,html{
   }
 
   .overlapping-column-image.overlapping-front-weddings {
+    /* width: 200px;
+    height: 200px; */
+    width: 210px;
+    height: 250px;
+  }
+
+  .birthday-container .overlapping-images-column .overlapping-column-image.overlapping-front-weddings {
     width: 200px;
     height: 200px;
+    width: 210px;
+    height: 250px;
   }
 
   .news-image {
@@ -1690,14 +1735,14 @@ body,html{
     top: 20px;
     /* width: 122px; */
     width: 100%;
-    height: 163px;
+    /* height: 163px; */
   }
 
   .intro-image-right {
     bottom: 20px;
     /* width: 122px; */
     width: 100%;
-    height: 184px;
+    /* height: 184px; */
   }
 
   .column-image {
@@ -1719,6 +1764,12 @@ body,html{
     top: 20px;
     width: 100%;
     height: 300px;
+  }
+
+  .founder-container .overlapping-column-image {
+    top: 20px;
+    width: 100%;
+    height: 100vw;
   }
 
   .news-image {

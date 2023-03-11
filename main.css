@@ -330,3 +330,8 @@
 .menu-button a{
   min-width: 250px;
 }
+
+.main-banner .wedding-events-container h1{
+  font-size: clamp(1.6rem, 4vw, 5rem);
+  line-height: 1.1em;
+}
