@@ -333,29 +333,29 @@ figcaption {
 ._3-column-image {
   min-height: 420px;
   margin-bottom: 20px;
-  background-image: url("/assets/images/news/Estella-main.jpg");
+  background-image: url("./assets/images/news/Estella-main.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 ._3-column-image.review-2 {
-  background-image: url("/assets/images/news/news-2.webp");
+  background-image: url("./assets/images/news/news-2.webp");
 }
 
 ._3-column-image.review-3 {
-  background-image: url("/assets/images/news/Estella-thumbnail-2.jpg");
+  background-image: url("./assets/images/news/Estella-thumbnail-2.jpg");
 }
 
 ._3-column-image.experiences-2 {
-  background-image: url("/assets/images/restaurant/drinks.jpg");
+  background-image: url("./assets/images/restaurant/drinks.jpg");
 }
 
 ._3-column-image.experiences-3 {
-  background-image: url("/assets/images/restaurant/beachfront-view.jpg");
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
 }
 
 ._3-column-image.experiences-1 {
-  background-image: url("/assets/images/restaurant/dish.jpg");
+  background-image: url("./assets/images/restaurant/dish.jpg");
 }
 
 ._3-column {
@@ -466,38 +466,38 @@ figcaption {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/table-2.JPG");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/table-2.JPG");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/table-2.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/table-2.JPG");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
 
 .main-banner-image.stay {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner-3-2.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner-3-2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/banner-3-2.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/banner-3-2.jpg");
   background-size: auto, cover;
 }
 
 .main-banner-image.experiences {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/dish-3.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/dish-3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/dish-3.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/dish-3.jpg");
   background-size: auto, cover;
   background-position: center center;
 }
 
 .main-banner-image.weddings {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner-2-1.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner-2-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/banner-2-1.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/banner-2-1.jpg");
 }
 
 .main-banner-image.about {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/banner.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/banner.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/banner.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/banner.jpg");
 }
 
 .main-banner-image.dine {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0443.JPG");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0443.JPG");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/IMG_0443.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/IMG_0443.JPG");
   background-size: auto, cover;
 }
 
@@ -506,8 +506,8 @@ figcaption {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0079.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0079.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/IMG_0079.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/IMG_0079.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -710,7 +710,7 @@ figcaption {
 .intro-image-left {
   width: 284px;
   height: 303px;
-  background-image: url("/assets/images/restaurant/drinks-2.jpeg");
+  background-image: url("./assets/images/restaurant/drinks-2.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -720,7 +720,7 @@ figcaption {
   height: 298px;
   margin-right: 0px;
   margin-left: auto;
-  background-image: url("/assets/images/restaurant/dine.jpg");
+  background-image: url("./assets/images/restaurant/dine.jpg");
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -893,7 +893,7 @@ figcaption {
 }
 
 .column-image.home-experiences {
-  background-image: url("/assets/images/restaurant/table-1.JPG");
+  background-image: url("./assets/images/restaurant/table-1.JPG");
 }
 
 ._2-columns {
@@ -1042,22 +1042,22 @@ figcaption {
 }
 
 .slide {
-  background-image: url("/assets/images/restaurant/group-photo.jpg");
+  background-image: url("./assets/images/restaurant/group-photo.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide._2 {
-  background-image: url("/assets/images/restaurant/table-8.JPG");
+  background-image: url("./assets/images/restaurant/table-8.JPG");
 }
 
 .slide._3 {
-  background-image: url("/assets/images/restaurant/IMG_0098.jpg");
+  background-image: url("./assets/images/restaurant/IMG_0098.jpg");
   background-size: cover;
 }
 
 .slide._4 {
-  background-image: url("/assets/images/restaurant/table-3.JPG");
+  background-image: url("./assets/images/restaurant/table-3.JPG");
   background-size: cover;
 }
 
@@ -1113,7 +1113,7 @@ figcaption {
 
 .overlapping-column-image {
   height: 560px;
-  background-image: url("/assets/images/restaurant/IMG_0083.jpg");
+  background-image: url("./assets/images/restaurant/IMG_0083.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1128,7 +1128,7 @@ figcaption {
   z-index: 2;
   width: 274px;
   height: 317px;
-  background-image: url("/assets/images/restaurant/IMG_0116.jpg");
+  background-image: url("./assets/images/restaurant/IMG_0116.jpg");
 }
 
 .overlapping-column-image.weddings {
@@ -1137,11 +1137,11 @@ figcaption {
 
 
 .birthday-container .overlapping-images-column .overlapping-column-image.weddings{
-  background-image: url("/assets/images/restaurant/dish-5.jpg");
+  background-image: url("./assets/images/restaurant/dish-5.jpg");
 }
 
 .founder-container .overlapping-images-column .overlapping-column-image.weddings{
-  background-image: url("/assets/images/restaurant/founder.jpeg");
+  background-image: url("./assets/images/restaurant/founder.jpeg");
 }
 
 .overlapping-column-image.overlapping-front-weddings {
@@ -1157,7 +1157,7 @@ figcaption {
   z-index: 2;
   width: 274px;
   height: 317px;
-  background-image: url("/assets/images/restaurant/dish-6.jpg");
+  background-image: url("./assets/images/restaurant/dish-6.jpg");
 }
 
 

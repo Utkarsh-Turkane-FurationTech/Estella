@@ -3,8 +3,8 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/IMG_0376.JPG");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/IMG_0376.JPG");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/IMG_0376.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/IMG_0376.JPG");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -33,8 +33,8 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/images/restaurant/table-9.JPG");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/restaurant/table-9.JPG");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/table-9.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/table-9.JPG");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -76,11 +76,11 @@
 }
 
 .restaurant .slick-prev:before {
-  content: url('/assets/images/icons/Left-Arrow.svg') !important;
+  content: url('./assets/images/icons/Left-Arrow.svg') !important;
 }
 
 .restaurant .slick-next:before{
-  content:url('/assets/images/icons/Right-Arrow.svg') !important;
+  content:url('./assets/images/icons/Right-Arrow.svg') !important;
 }
 
 .restaurant .slick-dots li button:before{
@@ -138,11 +138,11 @@
 }
 
 .career .slick-prev:before{
-  content:url('/assets/images/icons/left-white.png') !important;
+  content:url('./assets/images/icons/left-white.png') !important;
 }
 
 .career .slick-next:before{
-  content:url('/assets/images/icons/right-white.png') !important;
+  content:url('./assets/images/icons/right-white.png') !important;
 }
 
 .career .slick-next {
