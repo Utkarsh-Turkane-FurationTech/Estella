@@ -569,6 +569,7 @@ figcaption {
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
+  opacity: 75%;
 }
 
 .nav-link:hover {
@@ -576,6 +577,7 @@ figcaption {
   font-weight: 300;
   text-decoration: none;
   font-weight: initial;
+  opacity: 100%;
 }
 
 .nav-link.w--current {
@@ -1235,7 +1237,7 @@ figcaption {
 
 /* Custom Css To Template Starts */
 
-body,html{
+:root{
   overflow-x: hidden;
 }
 

@@ -53,31 +53,33 @@
 </head>
 
 <body>
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
-        role="banner" class="navigation w-nav">
-        <div class="navigation-logo-div"><a href="index.html" aria-current="page" class="w-nav-brand w--current"><img
-                    src="./assets/images/logos/Estella_logo_top.png"
-                    loading="lazy" alt="" class="footer-logo" /></a></div>
-        <div class="horizontal-line"></div>
-        <div class="container" style="padding-left: 10px; padding-right: 10px;">
-            <nav role="navigation" class="nav-menu w-nav-menu">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
+        <div class="navigation-logo-div">
+            <a href="index.html" aria-current="page" class="w-nav-brand w--current">
+                <!-- <img src="./assets/images/logos/Estella_Logo.svg" loading="lazy" alt="" class="footer-logo" /> -->
+                <img src="./assets/images/logos/Estella_logo_top.png" loading="lazy" alt="" class="footer-logo" />
+            </a>
+        </div>
+        <div   style="background-color: #ccaf7b !important;" id="navbar">
+            <div class="horizontal-line"></div>
+            <div class="container" style="padding-left: 10px; padding-right: 10px;">
+                <nav role="navigation" class="nav-menu w-nav-menu">
                     <a href="gallery.html" class="nav-link w-nav-link">Gallery</a>
                     <a href="dine.html" class="nav-link w-nav-link">Dine</a>
                     <a href="experiences.html" class="nav-link w-nav-link">experiences</a>
-                    <a
-                    href="weddings-and-events.html" class="nav-link w-nav-link">Weddings & Events</a>
+                    <a href="weddings-and-events.html" class="nav-link w-nav-link">Weddings & Events</a>
                     <a href="about.html" class="nav-link w-nav-link">About</a>
-                    <a
-                    href="news.html" class="nav-link w-nav-link">News</a>
-                    <a href="contact.html"
-                    class="nav-link w-nav-link">Contact</a>
+                    <a href="news.html" class="nav-link w-nav-link">News</a>
+                    <a href="contact.html" class="nav-link w-nav-link">Contact</a>
                     <a href="reservation.html" class="nav-link w-nav-link">Reservation</a>
                 </nav>
-            <div class="menu-button w-nav-button"><img
-                    src="https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/60445e89995a8cb819fbbe2e_menu icon%402x.png"
-                    loading="lazy" alt="" class="menu-icon" /></div>
+                <div class="menu-button w-nav-button">
+                    <img src="https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/60445e89995a8cb819fbbe2e_menu icon%402x.png" loading="lazy" alt="" class="menu-icon" />
+                    <div class="text-white d-inline-block d-lg-none" style="vertical-align: middle; margin-left: 2vw; font-family: Quattrocento, sans-serif;">Menu</div>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
         </div>
-        <div class="horizontal-line"></div>
     </div>
     <div class="main-banner wf-section">
         <div class="container" data-w-id="87ffe06f-b79f-ad6e-377b-64119911d515"
@@ -99,38 +101,38 @@
         <div class="">
             <h2 class="text-center">Reservation</h2>
             <p class="text-center w-100 mx-auto my-5"> Experience the Best of Beachside Dining at Estella - Book Your Table Today!</p>
-            <form action="" class="mt-5">
+            <form action="" class="mt-5" method="" id="reservationForm">
                 <div class="row row-gap-5">
                     <div class="col-lg-6">
                         <label for="firstname">FIRST NAME</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" id="firstname" type="text">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" id="firstname" type="text">
                     </div>
                     <div class="col-lg-6">
                         <label for="lastname">LAST NAME</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" id="lastname" type="text">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" id="lastname" type="text">
                     </div>
                     <div class="col-lg-6">
                         <label for="phoneno">PHONE</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" type="text" name="" id="phoneno">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="text" name="" id="phoneno">
                     </div>
                     <div class="col-lg-6">
                         <label for="email">EMAIL</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" type="email" name="" id="email">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="email" name="" id="email">
                     </div>
                     <div class="col-lg-4">
                         <label for="nuofguests">NUMBER OF GUESTS</label>
-                        <input class="form-control p-3 rounded-0 border-top-0 border-start-0 border-end-0" type="number" name="" id="nuofguests">
+                        <input class="form-control p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="number" name="" id="nuofguests">
                     </div>
                     <div class="col-lg-4">
                         <label for="date">DATE</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" type="date" name="" id="date">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="date" name="" id="date">
                     </div>
                     <div class="col-lg-4">
                         <label for="time">TIME</label>
-                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0" type="time" name="" id="time">
+                        <input class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="time" name="" id="time">
                     </div>
                     <div class="col-12 text-center mb-5">
-                        <input class="button blue" type="submit" value="RESERVE">
+                        <input class="button blue" type="submit" value="RESERVE" id="submitForm">
                     </div>
                 </div>
             </form>
@@ -201,6 +203,81 @@
 
     <!-- Bootstrap Javascript File Cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navbar Script -->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky") ;
+            console.log(sticky);
+         
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+    <!-- Form Script -->
+    <script>
+
+        $(document).ready(function () {
+
+            $('#reservationForm').submit(function (event) {
+
+                event.preventDefault();
+
+                var formData = $('#reservationForm').serializeArray();
+                var jsonData = {};
+                $.each(formData, function() {
+                    jsonData[this.name] = this.value;
+                }); 
+                let data = {
+                    "data": jsonData,
+                    "subject": "Reserve Table",
+                    "tos": ["reservation@grandmamascafe.com"]
+                }
+                console.log(JSON.stringify(data));
+
+                // Submit form data using AJAX
+                fetch('https://gp35hexn25qldemckvckh5qvna0qcnvz.lambda-url.ap-south-1.on.aws/', {
+                    method: 'POST',
+                    body: JSON.stringify(data)
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                       
+                        // =============
+                        Swal.fire({
+                            position: 'center',
+                            icon: 'success',
+                            title: 'Request Send',
+                            showConfirmButton: false,
+                            timer: 2500
+                            })
+                        // ===========
+                        $('#reservationForm').find('input, select, textarea').val('');
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log(data);
+                    })
+                    .catch(error => {
+                        console.error('There was a problem with the fetch operation:', error);
+                    });
+            });
+
+        });
+
+
+    </script>
+
 </body>
 <!-- Mirrored from josefin-hotel.webflow.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 13:43:54 GMT -->
 

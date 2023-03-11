@@ -335,3 +335,8 @@
   font-size: clamp(1.6rem, 4vw, 5rem);
   line-height: 1.1em;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
