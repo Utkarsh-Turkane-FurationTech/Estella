@@ -332,7 +332,7 @@
 }
 
 .main-banner .wedding-events-container h1{
-  font-size: clamp(1.6rem, 4vw, 5rem);
+  font-size: clamp(2.5rem, 4vw, 5rem);
   line-height: 1.1em;
 }
 
@@ -340,3 +340,20 @@
   position: fixed;
   top: 0;
 }
+
+.text-justify{
+  text-align: justify;
+}
+
+.main-banner .container p{
+  font-weight: 400 !important;
+}
+
+/* .footer-copy a{
+  opacity: 100%;
+} */
+
+/* .footer-copy a:hover {
+  font-weight: 500 !important;
+  text-decoration: none !important;
+} */

@@ -63,6 +63,34 @@
     /* .full-image-section .container .button {
         min-width: 80%;
     } */
+
+    .food-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .food-container h3{
+        text-align: center
+    }
+
+    .ambience-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .ambience-container h3{
+        text-align: center
+    }
+
+    .bar-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .bar-container h3{
+        text-align: center
+    }
+
 }
 
 @media (max-width:568px){
@@ -102,7 +130,35 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
-      
+
+    .index-page .button {
+        margin-top: 0;
+    }
+
+    .index-page .container p {
+        max-width: 100%;
+        font-size: clamp(1rem, 1vw, 1.2rem);
+        line-height: 1.5em;
+    } 
+    
+    .index-page .container h1 {
+        font-size: clamp(1.8rem, 4vw, 5rem);
+        line-height: 1.1em;
+        margin-bottom: 0;
+    }
+
+    .wedding-events-container{
+        position: absolute;
+        top: 40%;
+    }
+
+    .wedding-container,.birthday-container h3,p{
+        text-align: center !important;
+    }
+
+    .wedding-container h3{
+        text-align: center !important;
+    }
 }    
 
 
