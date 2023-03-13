@@ -5,6 +5,19 @@
 <!-- Mirrored from josefin-hotel.webflow.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 13:43:43 GMT -->
 
 <head>
+
+    <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0QFL23YD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YJ0QFL23YD');
+    </script>
+    <!-- Google tag End  -->
+
     <meta charset="utf-8" />
     <title>Estella Reservations : Fill Form To Reserve Table</title>
     <meta
@@ -223,7 +236,7 @@
     </script>
 
     <!-- Form Script -->
-    <script>
+    <!-- <script>
 
         $(document).ready(function () {
 
@@ -276,7 +289,66 @@
         });
 
 
+    </script> -->
+
+    <!-- Reservation Form -->
+
+    <script>
+
+        var Webflow = Webflow || [];
+      
+        Webflow.push(function(){
+          $(document).off("submit");
+        $("form").submit(function (evt){
+          evt.preventDefault();
+        let fo = document.getElementById(evt.target.id);
+        fo.style.display = "none";
+        });
+        });
+      
+        function setFormSubmitListen(submitId, formId, tos, subject, radios=[]){
+          document.getElementById(submitId).addEventListener('click', function (e) {
+            mailFormContent(formId, tos, subject, radios)
+          });
+        }
+        
+        setFormSubmitListen("submitForm" ,"reservationForm", ["utkarsh.turkane@furation.tech"], "Reservation Form");
+      
+        function mailFormContent(formID, tos, subject, radios=[]){
+         const URL = "https://gp35hexn25qldemckvckh5qvna0qcnvz.lambda-url.ap-south-1.on.aws/";
+      
+        let form = document.getElementById(formID);
+        let fieldsHTMLColl = form.getElementsByClassName("form_field");
+        const mssgBody = { };
+        for (let f of fieldsHTMLColl){
+          mssgBody[f.name] = f.value;
+          
+          if(f.value == '' || f.value == null || f.value == undefined){
+            return;
+          }    
+         }
+      
+      
+        for (radioName of radios){
+          let selVal = form.querySelector(`input[type='radio'][name=${radioName}]:checked`).value;
+        mssgBody[radioName] = selVal;
+         }
+      
+        mssgBody["Source"] = window.location.hostname;
+      
+        let data = {
+          "data": mssgBody,
+          "subject":subject,
+          "tos":tos,
+          "from_source": "utkarsh.turkane@furation.tech"
+        }
+      
+        form.querySelector(".w-form-done").style.display = "block";
+      
+        fetch(URL, {method:"POST", body:JSON.stringify(data)}); 
+        }
     </script>
+ 
 
 </body>
 <!-- Mirrored from josefin-hotel.webflow.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 13:43:54 GMT -->
