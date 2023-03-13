@@ -159,6 +159,10 @@
     .wedding-container h3{
         text-align: center !important;
     }
+
+    .founder-container p {
+        text-align: justify !important;
+    }
 }    
 
 
