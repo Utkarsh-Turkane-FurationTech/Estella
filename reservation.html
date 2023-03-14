@@ -32,14 +32,14 @@
         content="Estella Swanky restaurant serving modern Australian fare in a scenic beachfront locale with a deck & a bar"
         property="og:description" />
     <meta
-        content="./assets/images/logos/Estella.jpg" 
+        content="https://estella-assets.s3.ap-south-1.amazonaws.com/Estella.jpg" 
         property="og:image" />
     <meta content="Estella Swanky Restaurant with Deck & Bar" property="twitter:title" />
     <meta
         content="Estella Swanky restaurant serving modern Australian fare in a scenic beachfront locale with a deck & a bar"
         property="twitter:description" />
     <meta
-        content="./assets/images/logos/Estella.jpg"
+        content="https://estella-assets.s3.ap-south-1.amazonaws.com/Estella.jpg"
         property="twitter:image" />
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
@@ -151,10 +151,15 @@
                         <input name="time"  class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="time" name="" id="time" required>
                     </div>
                     <div class="col-12 text-center mb-5">
-                        <input class="button blue" type="submit" value="RESERVE" id="submitForm">
+                        <!-- <input class="button blue" type="submit" value="RESERVE" id="submitForm"> -->
+                        <!-- <input type="submit" name="" value="RESERVE" id="submitForm"> -->
+                        <button class="button blue" type="submit" id="submitForm">Reserve</button>
                     </div>
                 </div>
             </form>
+            <div id="sucessful">
+                <h4 class="text-center displayNone">Your Response has been received</h4>
+            </div>
         </div>
     </div>
 
@@ -295,13 +300,10 @@
                             icon: 'success',
                             title: 'Request Send',
                             showConfirmButton: false,
-                            timer: 3000
+                            timer: 2300
                             // confirmButtonText: 'OK'
                         })
-                        // window.openUrl('reservation.html')
-                        location.reload()
-                        // $(this).load('')
-                        
+
                         // ===========
                         $('#reservationForm').find('input, select, textarea').val('');
                         return response.json();
