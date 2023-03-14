@@ -163,6 +163,10 @@
     .founder-container p {
         text-align: justify !important;
     }
+
+    .details .details-div p{
+        text-align: left !important;
+    }
 }    
 
 

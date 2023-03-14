@@ -147,7 +147,7 @@
                         <input name="time"  class="form-control bg-transparent p-3 rounded-0 border-top-0 border-start-0 border-end-0 form_field" type="time" name="" id="time" required>
                     </div>
                     <div class="col-12 text-center mb-5">
-                        <input class="button blue" type="submit" value="RESERVE" id="">
+                        <input class="button blue" type="submit" value="RESERVE" id="submitForm">
                     </div>
                 </div>
             </form>
@@ -214,6 +214,9 @@
         type="text/javascript"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
+    <!-- SweetAlert Javascript File Cdn Deliver -->
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js "></script>
+    
     <!-- Bootstrap Javascript File Cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -237,121 +240,8 @@
         }
     </script>
 
+
     <!-- Form Script -->
-    <!-- <script>
-
-        $(document).ready(function () {
-
-            $('#reservationForm').submit(function (event) {
-
-                event.preventDefault();
-
-                var formData = $('#reservationForm').serializeArray();
-                var jsonData = {};
-                $.each(formData, function() {
-                    jsonData[this.name] = this.value;
-                }); 
-                let data = {
-                    "data": jsonData,
-                    "subject": "Reserve Table",
-                    "tos": ["utkarsh.turkane@furation.tech"]
-                }
-                console.log(JSON.stringify(data));
-
-                // Submit form data using AJAX
-                fetch('https://mg6b3wltowcczauzm7kwe2xyme0zckdh.lambda-url.ap-south-1.on.aws/', {
-                    method: 'POST',
-                    body: JSON.stringify(data)
-                })
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-                       
-                        // =============
-                        Swal.fire({
-                            position: 'center',
-                            icon: 'success',
-                            title: 'Request Send',
-                            showConfirmButton: false,
-                            timer: 2500
-                            })
-                        // ===========
-                        $('#reservationForm').find('input, select, textarea').val('');
-                        return response.json();
-                    })
-                    .then(data => {
-                        console.log(data);
-                    })
-                    .catch(error => {
-                        console.error('There was a problem with the fetch operation:', error);
-                    });
-            });
-
-        });
-
-
-    </script> -->
-
-    <!-- Reservation Form -->
-
-    <!-- <script>
-
-        var Webflow = Webflow || [];
-      
-        Webflow.push(function(){
-          $(document).off("submit");
-        $("form").submit(function (evt){
-          evt.preventDefault();
-        let fo = document.getElementById(evt.target.id);
-        fo.style.display = "none";
-        });
-        });
-      
-        function setFormSubmitListen(submitId, formId, tos, subject, radios=[]){
-          document.getElementById(submitId).addEventListener('click', function (e) {
-            mailFormContent(formId, tos, subject, radios)
-          });
-        }
-        
-        setFormSubmitListen("submitForm" ,"reservationForm", ["utkarsh.turkane@furation.tech"], "Reservation Form");
-      
-        function mailFormContent(formID, tos, subject, radios=[]){
-         const URL = "https://gp35hexn25qldemckvckh5qvna0qcnvz.lambda-url.ap-south-1.on.aws/";
-      
-        let form = document.getElementById(formID);
-        let fieldsHTMLColl = form.getElementsByClassName("form_field");
-        const mssgBody = { };
-        for (let f of fieldsHTMLColl){
-          mssgBody[f.name] = f.value;
-          
-          if(f.value == '' || f.value == null || f.value == undefined){
-            return;
-          }    
-         }
-      
-      
-        for (radioName of radios){
-          let selVal = form.querySelector(`input[type='radio'][name=${radioName}]:checked`).value;
-        mssgBody[radioName] = selVal;
-         }
-      
-        mssgBody["Source"] = window.location.hostname;
-      
-        let data = {
-          "data": mssgBody,
-          "subject":subject,
-          "tos":tos,
-          "from_source": "utkarsh.turkane@furation.tech"
-        }
-      
-        form.querySelector(".w-form-done").style.display = "block";
-      
-        fetch(URL, {method:"POST", body:JSON.stringify(data)}); 
-        }
-
-    </script> -->
-    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js "></script>
     <script> 
         
         $(document).ready(function () {
@@ -401,8 +291,13 @@
                             icon: 'success',
                             title: 'Request Send',
                             showConfirmButton: false,
-                            timer: 2500
+                            timer: 3000
+                            // confirmButtonText: 'OK'
                         })
+                        // window.openUrl('reservation.html')
+                        location.reload()
+                        // $(this).load('')
+                        
                         // ===========
                         $('#reservationForm').find('input, select, textarea').val('');
                         return response.json();
