@@ -28,7 +28,9 @@
         min-width: 100%;
     }
 
-
+    .founder-container .overlapping-images-column{
+        top: 0px !important;
+    }
     
     
 

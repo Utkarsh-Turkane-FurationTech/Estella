@@ -1207,6 +1207,7 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+  /* row-gap: 16px; */
 }
 
 .blog-collection-list-wrapper {
