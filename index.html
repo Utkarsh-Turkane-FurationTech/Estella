@@ -55,6 +55,9 @@
     <link rel="stylesheet" href="responsive.css">
     <link href="./assets/images/icons/favicon-2.png" rel="icon" type="image/x-icon" />
     <link href="./assets/images/icons/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Slick Slider Css -->
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script
@@ -99,7 +102,7 @@
         </div>
     </div>
     <div class="main-banner wf-section index-page">
-        <div class="container">
+        <div class="container" style="z-index: 500;">
             <h1 data-w-id="74d29ccd-2fc6-5860-3468-37f7154f9e45"
                 style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                 class="white centered">Mumbai's Only <br class="d-none"> Luxury Beach Bar
@@ -113,16 +116,35 @@
                 href="reservation.html#reservation" target="_self" class="button w-button">Book a Table</a>
         </div>
         <div data-w-id="87ffe06f-b79f-ad6e-377b-64119911d515"
-            style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+            style="z-index: 500; -webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
             class="decorative-line-div d-none">
             <img src="https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605e93352dfa602110b16b7e_diamond.svg"
                 loading="lazy" alt="" />
             <div class="decorative-line"></div>
         </div>
-        <div class="main-banner-image"></div>
+        <!-- <div class="main-banner-image"></div> -->
+        <div class="main-image-slider" style="width: 100%; height: 100%;">
+            <img src="./assets/images/restaurant/beachfront-view.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center; filter: brightness(0.5);" class="slidermain"></img>
+            <img src="./assets/images/restaurant/banner.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center; filter: brightness(0.5);" class="slidermain"></img>
+            <img src="./assets/images/restaurant/IMG_0418.JPG" style="width: 100%; height: 100vh; object-fit: cover; object-position: center; filter: brightness(0.5);" class="slidermain"></img>
+            <img src="./assets/images/news/Estella-main.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center; filter: brightness(0.5);" class="slidermain"></img>
+            <img src="./assets/images/news/news-4.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center; filter: brightness(0.5);" class="slidermain"></img>
+         </div> 
     </div>
+
+    <!-- <div class="main-image-slider" style="width: 100%; height: 100%;">
+        <img src="./assets/images/restaurant/beachfront-view.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center;" class="slidermain"></img>
+        <img src="./assets/images/restaurant/banner.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center;" class="slidermain"></img>
+        <img src="./assets/images/restaurant/IMG_0418.JPG" style="width: 100%; height: 100vh; object-fit: cover; object-position: center;" class="slidermain"></img>
+        <img src="./assets/images/news/Estella-main.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center;" class="slidermain"></img>
+        <img src="./assets/images/news/news-4.jpg" style="width: 100%; height: 100vh; object-fit: cover; object-position: center;" class="slidermain"></img>
+     </div>  -->
+
     <div class="blue-section wf-section">
-        <div class="intro-image-right"></div>
+        <!-- <div class="intro-image-right"></div> -->
+        <div class="mx-auto image-right" style="width:50%; aspect-ratio: 2/1; height: auto;">
+            <img src="./assets/images/restaurant/dine-2" class="w-100 h-100" style="object-fit: cover; object-position: center;" alt="">
+        </div>
         <div data-w-id="02186009-889a-c385-89d8-42397d0bebae"
             style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
             class="intro-text">
@@ -144,7 +166,10 @@
             <h2 class="centered">Estella the beachfront restaurant. Indulge in the finest Modern Australian cuisine
                 while taking in the breathtaking views of the beach at Estella.</h2>
         </div>
-        <div class="intro-image-left"></div>
+        <!-- <div class="intro-image-left"></div> -->
+        <div class="mx-auto image-left" style="width:50%; aspect-ratio: 2/1; height: auto;">
+            <img src="./assets/images/restaurant/drinks-3.jpg" class="w-100 h-100" style="object-fit: cover; object-position: center;" alt="">
+        </div>
     </div>
     <div class="white-section wf-section">
         <h2 data-w-id="68da637b-1af3-cac5-3196-5aedd516fa80"
@@ -328,6 +353,13 @@
     <!-- Bootstrap Javascript File Cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Jquery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Slick Script -->
+    <script src="./assets/slick/slick.js"></script>
+
+
     <!-- Navbar Script -->
     <script>
         if (window.screen.width > 992) {
@@ -347,6 +379,24 @@
             }
         }
     </script>
+
+    <!-- Slider Script -->
+    <script>
+        $(document).ready(function(){
+            $('.main-image-slider').slick({
+                infinte: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                autoplay : true,
+                autoplaySpeed : 5000,
+                arrows : false,
+                pauseOnHover: false,
+                pauseOnFocus: false 
+            });
+        });
+    </script>
+    
 </body>
 <!-- Mirrored from josefin-hotel.webflow.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 13:43:54 GMT -->
 

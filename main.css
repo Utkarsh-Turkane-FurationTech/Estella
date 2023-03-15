@@ -367,3 +367,49 @@
 .displayNone{
   display: none;
 }
+
+/* .main-image-slider .slider-1{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.main-image-slider .slider-2{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-3{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-4{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-5{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+.slidermain{
+  /* position: relative; */
+  display: inline-block !important;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+}

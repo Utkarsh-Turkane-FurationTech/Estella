@@ -907,9 +907,14 @@
      background-size: cover;
    }
    
-   .column-image.home-experiences {
+   /* .column-image.home-experiences {
      background-image: url("./assets/images/restaurant/table-1.JPG");
-   }
+   } */
+
+   .column-image.home-experiences {
+    background-image: url("./assets/images/restaurant/deck-2.jpg");
+    background-position: 0%
+  }
    
    ._2-columns {
      display: -webkit-box;
