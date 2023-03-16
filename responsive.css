@@ -58,6 +58,7 @@
     }
 }
 
+
 @media (max-width: 768px){
     .whisky-jazz .whisky-jazz-content{
         padding-left: 12px;
@@ -83,6 +84,7 @@
         position: unset !important;
         top: unset !important;
     }
+
 
     /* .full-image-section .container .button {
         min-width: 80%;
@@ -118,6 +120,11 @@
     .image-right,.image-left{
         width: 80% !important;
         /* aspect-ratio: 1/1 !important; */
+    }
+
+    .founder-new-update div:nth-child(1){
+        position: unset !important;
+        top: unset;
     }
 
 }
@@ -201,6 +208,9 @@
         width: 100% !important;
         aspect-ratio: 1/1 !important;
     }
+
+
+
 }    
 
 
