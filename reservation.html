@@ -305,9 +305,8 @@
                 let data = {
                     "data": jsonData,
                     "subject": "Reservation Form",
-                    "tos": ["aditya@furation.tech"],
-                    // "from_source": "form_submission@akinarestaurant.com"
-                    "from_source": "form_submission@estellamumbai.in"
+                    "tos": ["aditya@furation.tech"],                    
+                    "from_source": "estella-reservation@estellamumbai.in"
                 }
 
                 console.log(JSON.stringify(data));
@@ -326,7 +325,7 @@
                         Swal.fire({
                             position: 'center',
                             icon: 'success',
-                            title: 'Request Send',
+                            title: 'Reservation request sent. Our team will get in touch for confirmation.',
                             showConfirmButton: false,
                             timer: 2300
                             // confirmButtonText: 'OK'
