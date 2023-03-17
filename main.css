@@ -413,3 +413,141 @@
   white-space: normal;
   text-align: left;
 }
+
+.top-bar{
+  width: 100%;
+  height: 5px;
+  background-color: #ccaf7b !important;
+  display: block;
+  position: absolute;
+  top: 0px;
+  transition: all 0.25s;
+  transform-origin: left center;
+  /* transform: rotate(0deg); */
+}
+
+.bottom-bar{
+  width: 100%;
+  height: 5px;
+  background-color: #ccaf7b !important;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  rotate: -7deg;
+  transition: all 0.25s;
+  transform-origin: left center;
+  /* transform: rotate(0deg); */
+}
+
+.hamburger-menu{
+  height: 25px;
+  width: 40px;
+  /* position: fixed;
+  top: 2rem;
+  left: 2.4rem; */
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 2.4rem;
+}
+
+.hamburger-menu:hover .bottom-bar{
+  rotate: 0deg;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+  /* background: #192b4d; */
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: max-content;
+  width: 100%;
+  z-index: 1000;
+  /* background: transparent; */
+}   
+
+
+.menu-items ul{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.menu-items{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 100px;
+  /* left: 100px; */
+  /* background: #192b4d; */
+  padding-left: 9rem;
+  padding-top: 2rem;
+  transition: all 1s;
+  transition-timing-function: ease-in-out;
+  transform: translateX(-100rem);
+
+}
+
+.menu-items ul li:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.menu-items ul li a{
+  font-size: 24px;
+  font-family: Quattrocento, sans-serif;
+}
+
+.menu-items ul a:hover{
+  font-weight: 700;
+}
+
+.menu-items ul a{
+  text-decoration: none;
+  color: #ccaf7b;
+}
+
+.logo-container{
+  /* position: fixed;
+  top: 2rem;
+  right: 2.4rem; */
+  margin-top: 2rem;
+  margin-right: 2.4rem;
+}
+
+.translate{
+  transform: translateX(0rem);
+}
+.background{
+  background: #192b4d;
+}
+
+.rotate-1{
+  transform: rotate(21deg);
+}
+
+.rotate-2{
+  transform: translateY(0) rotate(-24deg);
+}
+
+.background-main{
+  display:none;
+  width: 100%;
+  height: 100vh;
+  background-color:#fff; z-index: -1;
+  position: absolute;
+  top: 0px; left: 0px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.background-main-toggled{
+  display: block;
+  background-color: #192b4d;
+}

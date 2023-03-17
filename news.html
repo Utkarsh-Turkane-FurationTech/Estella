@@ -75,14 +75,14 @@
 </head>
 
 <body>
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
+    <!-- <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
         <div class="navigation-logo-div">
-            <a href="index.html" aria-current="page" class="w-nav-brand w--current">
+            <a href="index.html" aria-current="page" class="w-nav-brand w--current"> -->
                 <!-- <img src="./assets/images/logos/Estella_Logo.svg" loading="lazy" alt="" class="footer-logo" /> -->
-                <img src="./assets/images/logos/Estella_logo_top.png" loading="lazy" alt="" class="footer-logo" />
+                <!-- <img src="./assets/images/logos/Estella_logo_top.png" loading="lazy" alt="" class="footer-logo" />
             </a>
-        </div>
-        <div id="navbar">
+        </div> -->
+        <!-- <div id="navbar">
             <div class="horizontal-line"></div>
             <div class="container" style="padding-left: 10px; padding-right: 10px;">
                 <nav role="navigation" class="nav-menu w-nav-menu">
@@ -102,8 +102,36 @@
                 </div>
             </div>
             <div class="horizontal-line"></div>
+        </div> -->
+    <!-- </div> -->
+
+    <nav>
+        <div class="navbar">
+            <div class="hamburger-menu">
+                <span class="top-bar"></span>
+                <span class="bottom-bar"></span>
+            </div>
+            <div class="logo-container">
+                <img src="./assets/images/logos/Estella_Logo.svg" width="140" alt="Estella Logo">
+            </div>
+            <div class="menu-items">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="gallery.html">Gallery</a> </li>
+                    <li><a href="dine.html">Dine</a> </li>
+                    <li><a href="experiences.html">Experiences</a> </li>
+                    <li><a href="weddings-and-events.html">Weddings & Events</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="news.html">News</a> </li>
+                    <li><a href="contact.html">Contact</a> </li>
+                    <li><a href="reservation.html">Reservation</a> </li>
+                </ul>
+            </div>
+            <div class="background-main">
+            </div>
         </div>
-    </div>
+    </nav>
+
     <!-- <div class="navy-blue-section wf-section">
         <h1 data-w-id="46f02a63-7cd6-081c-e8fc-5d2c6d4ce699"
             style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
@@ -320,6 +348,21 @@
               }
             }
         }
+    </script>
+
+     <!-- New navbar script -->
+     <script>
+        $(document).ready(function(){
+            $('.hamburger-menu').click(function(){
+                // $('.menu-items').slideToggle('slow');
+                $('.menu-items').toggleClass('translate');
+                $('.background-main').toggleClass('background-main-toggled');
+                // $('.navbar').toggleClass('background');
+                $(' .top-bar').toggleClass('rotate-1');
+                $(' .bottom-bar').toggleClass('rotate-2');
+                $('.bottom-bar').css('rotate','0deg');
+            });
+        });
     </script>
 </body>
 <!-- Mirrored from josefin-hotel.webflow.io/news by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 13:44:06 GMT -->

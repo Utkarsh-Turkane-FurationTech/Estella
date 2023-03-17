@@ -209,6 +209,30 @@
         aspect-ratio: 1/1 !important;
     }
 
+    .hamburger-menu {
+        height: 20px;
+        width: 30px;
+        position: relative;
+        margin-top: 0rem;
+        margin-left: 1.4rem;
+    }
+    
+    .navbar img{
+        width: 120px;
+        height: 23px;
+        object-fit: contain;
+    }
+    
+    .logo-container {
+        margin-top: 0rem;
+        margin-right: 1.4rem;
+    }
+     
+    .menu-items {
+        padding-left: 2rem;
+        padding-top: 0rem;
+    }
+ 
 
 
 }    
