@@ -61,6 +61,8 @@
     rel="icon" type="image/x-icon" />
     <link href="./assets/images/icons/apple-touch-icon.png"
         rel="apple-touch-icon" />
+    <!-- Aos Animaton Css -->
+    <link rel="stylesheet" href="./assets/aos/aos.css">
    
         
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -133,45 +135,39 @@
 
     <div class="main-banner wf-section">
         <div class="container">
-            <h1 data-w-id="3d3b7aad-0eaa-0764-a220-d2f550fb6950"
-                style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                class="white centered">Create memories<br /></h1>
+            <h1 data-aos="fade-up" data-aos-duration="900" class="white centered">Create memories<br /></h1>
         </div>
-        <div data-w-id="3d3b7aad-0eaa-0764-a220-d2f550fb6953"
-            style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-            class="decorative-line-div"><img
-                src="https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605e93352dfa602110b16b7e_diamond.svg"
+        <div class="decorative-line-div"><img
+                src="./assets/images/icons/diamond.svg"
                 loading="lazy" alt="" />
             <div class="decorative-line"></div>
         </div>
         <div class="main-banner-image experiences"></div>
     </div>
     <div class="blue-section wf-section">
-        <div data-w-id="770722d8-693a-7b31-c75c-0de82f5f8820"
-            style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-            class="container with-columns p-0">
-            <h2 class="centered">Exclusive experiences to<br />elevate your stay</h2>
-            <div class="decorative-line-div with-padding"><img
-                    src="https://uploads-ssl.webflow.com/602f1c9e7ca288f7249a06b3/605eaf5f89b0efcb4dbaa44d_Diamond Blue.svg"
+        <div class="container with-columns p-0">
+            <h2 class="centered" data-aos="fade-up" data-aos-duration="900">Exclusive experiences to<br />elevate your stay</h2>
+            <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" class="decorative-line-div with-padding"><img
+                    src="./assets/images/icons/Diamond-Blue.svg"
                     loading="lazy" alt="" />
                 <div class="decorative-line blue"></div>
             </div>
             <div class="_3-columns w-row">
-                <div class="_3-column w-col w-col-4 w-col-stack">
+                <div class="_3-column w-col w-col-4 w-col-stack" data-aos="fade-right" data-aos-duration="900" data-aos-delay="200">
                     <div class="_3-column-image experiences-1"></div>
                     <h3>Food</h3>
                     <p>Embark on a Culinary Journey with Estella's Unique Blend of Modern Australian Essentials and Asian Cuisine</p><a
                         href="reservation.html#reservation" target="_self" class="button blue w-button">book
                         now</a>
                 </div>
-                <div class="_3-column middle w-col w-col-4 w-col-stack">
+                <div class="_3-column middle w-col w-col-4 w-col-stack" data-aos="fade-up" data-aos-duration="900">
                     <div class="_3-column-image experiences-2"></div>
                     <h3>Drinks</h3>
                     <p>Indulge in the refreshing ocean breeze while sipping on Estella's expertly crafted cocktails, perfectly paired with the picturesque sunset views</p><a
                         href="reservation.html#reservation" target="_self" class="button blue w-button">book
                         now</a>
                 </div>
-                <div class="_3-column w-col w-col-4 w-col-stack">
+                <div class="_3-column w-col w-col-4 w-col-stack" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
                     <div class="_3-column-image experiences-3"></div>
                     <h3>Fun in the sun</h3>
                     <p>Experience the ultimate beach day with Estella, where sun-kissed sands and endless waves meet delectable cuisine and vibrant entertainment for an unforgettable seaside escape</p><a
@@ -275,6 +271,12 @@
                 $('.bottom-bar').css('rotate','0deg');
             });
         });
+    </script>
+
+    <!-- Aos Script -->
+    <script src="./assets/aos/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
